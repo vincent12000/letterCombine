@@ -14,19 +14,19 @@ class LetterCombineApplicationTests {
     @Test
     void testLetterCombine() {
         int[] arrFirst = {3,4};
-        String arrFirstCorrectResult = "DG DH DI EG EH EI FG FH FI";
+        String arrFirstCorrectResult = "dg dh di eg eh ei fg fh fi";
         testLetterCombine(arrFirst, arrFirstCorrectResult, 100);
 
         int[] arrSecond = {5,6,7};
-        String arrSecendCorrectResult = "JMP JMQ JMR JMS JNP JNQ JNR JNS JOP JOQ JOR JOS KMP KMQ KMR KMS KNP KNQ KNR KNS KOP KOQ KOR KOS LMP LMQ LMR LMS LNP LNQ LNR LNS LOP LOQ LOR LOS";
+        String arrSecendCorrectResult = "jmp jmq jmr jms jnp jnq jnr jns jop joq jor jos kmp kmq kmr kms knp knq knr kns kop koq kor kos lmp lmq lmr lms lnp lnq lnr lns lop loq lor los";
         testLetterCombine(arrSecond, arrSecendCorrectResult, 100);
 
         int[] arrThird = {1,2};
-        String arrThirdCorrectResult = "A B C";
+        String arrThirdCorrectResult = "a b c";
         testLetterCombine(arrThird, arrThirdCorrectResult, 100);
 
         int[] arrFourth = {3, 3};
-        String arrFourthCorrectResult = "DD DE DF ED EE EF FD FE FF";
+        String arrFourthCorrectResult = "dd de df ed ee ef fd fe ff";
         testLetterCombine(arrFourth, arrFourthCorrectResult, 100);
 
         //error input
